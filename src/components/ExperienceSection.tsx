@@ -35,17 +35,17 @@ export default function ExperienceSection() {
               isLast={index === workExperience.length - 1}
               index={index}
             >
-              <motion.div
-                className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                viewport={{ once: true }}
-              >
-                <div className="flex items-center mb-3">
-                  <div className="h-6 w-6 flex items-center justify-center rounded-full bg-purple-500/10 mr-2">
-                    <Briefcase className="h-4 w-4 text-purple-500" />
-                  </div>
+            <motion.div
+              className="mt-3 p-4 bg-card/70 backdrop-blur-sm rounded-lg border border-border shadow-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+            >
+              <div className="flex items-center mb-3">
+                <div className="h-6 w-6 flex items-center justify-center rounded-full bg-primary/10 mr-2 border border-border/50">
+                  <Briefcase className="h-4 w-4 text-primary" />
+                </div>
                   <h4 className="text-sm font-medium">Key Achievements</h4>
                 </div>
                 <ul className="list-none ml-4 space-y-2 text-sm">
