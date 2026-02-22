@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/christophersorley",
   profilePicture: "/profile.jpeg",
   heroDescription:
-    "Early-career Software Engineering candidate with a strong foundation in Python, data analytics, and technical systems optimization, backed by 20 years of military experience solving complex operational problems in high-reliability environments. Experienced in building data-driven automation solutions, analyzing large datasets, and improving system performance. Proven collaborator with strong problem-solving, communication, and continuous improvement mindset. Actively transitioning into full-time software engineering with hands-on technical training and applied analytics development.",
+    "Software Engineer with a strong foundation in Python, data analytics, and technical systems optimization, backed by 20 years of military experience solving complex operational problems in high-reliability environments. Experienced in building data-driven automation solutions, analyzing large datasets, and improving system performance. Proven collaborator with strong problem-solving, communication, and continuous improvement mindset. Actively transitioning into full-time software engineering with hands-on technical training and applied analytics development.",
 };
 
 export const workExperience = [
@@ -16,6 +16,7 @@ export const workExperience = [
     position: "Maintenance Information Manager",
     period: "June 2022 - Present",
     achievements: [
+      "Reengineered business processes and consolidated legacy systems into two dashboard products, optimizing 15 workflows and significantly improving system reliability and decision-making at scale.",
       "Managed system-of-record operational data for 23 aircraft ($7.2B), delivering real-time, data-driven reporting to executive stakeholders.",
       "Designed and maintained operational reporting workflows, coordinating cross-functional data pipelines across 18 internal and external organizations.",
       "Performed data analysis and data validation on 24,700+ operational records, identifying and correcting 584 defects to ensure high data quality and accuracy.",
@@ -37,7 +38,7 @@ export const workExperience = [
   {
     company: "United States Department of the Air Force",
     location: "Abilene, Texas",
-    position: "Flightline Expediter",
+    position: "Operations Coordinator",
     period: "August 2020 - May 2021",
     achievements: [
       "Managed high-availability operational systems in time-critical environments, prioritizing resources to maintain service continuity under load.",
@@ -74,7 +75,7 @@ export const education = [
     institution: "Code Platoon",
     location: "Chicago, Illinoise (Remote)",
     degree: "15-Week Full Stack Software Engineering Bootcamp",
-    period: "Expected",
+    period: "2026",
   },
   {
     institution: "Air Force Institute of Technology",
@@ -91,7 +92,7 @@ export const education = [
   {
     institution: "Embry-Riddle Aeronautical University",
     location: "Abilene, Texas (Remote)",
-    degree: "B.S. Technical Management (Management Information Systems)",
+    degree: "B.S. Technical Management",
     period: "2022",
   },
 ];
@@ -136,7 +137,7 @@ export const projects = [
     {
     title: "Predicting Aircraft Mission Capability (Air Force Institute of Technology Capstone)",
     description: [
-      "Utilized pandas, numpy, matplotlib, scikit-learn, keras, and Jupyter Notebooks.",
+      "Utilized Conda, Jupyter Notebooks, pandas, numpy, scikit-learn, keras, seaborn, and matplotlib.",
       "Built regression and neural network models using operational data.",
       "Applied feature engineering, normalization, and cross-validation.",
     ],

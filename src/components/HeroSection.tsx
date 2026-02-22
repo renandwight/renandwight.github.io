@@ -49,7 +49,6 @@ export default function HeroSection() {
               variants={childVariants}
             >
               <p>Full Stack Software Engineer 👨‍💻</p>
-              <p>{"(Junior)"}</p>
             </motion.p>
 
             <motion.div
